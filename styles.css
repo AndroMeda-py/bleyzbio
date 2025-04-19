@@ -1,0 +1,63 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle, #020b1f, #000);
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.buttons {
+  margin: 30px 0;
+}
+
+.glow-button {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+  background-color: #111;
+  border-radius: 15px;
+  text-decoration: none;
+  box-shadow: 0 0 20px #0ff;
+  transition: 0.3s;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 40px #0ff;
+}
+
+.clicker {
+  margin-top: 40px;
+}
+
+#click-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #0ff;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#click-btn:hover {
+  background: #0cc;
+}
